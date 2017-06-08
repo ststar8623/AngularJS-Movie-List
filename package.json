@@ -1,0 +1,19 @@
+{
+  "name": "AngularJS Movie List App",
+  "version": "1.0.0",
+  "description": "Re-making Movie-list with AngularJS",
+  "author": "Steven Leung @ Hack Reactor",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "postinstall": "curl -s https://raw.githubusercontent.com/reactorcore/pomander/master/bin/install | bash"
+  },
+  "dependencies": {
+    "lodash": "^4.6.1",
+    "angular": "^1.6"
+  },
+  "devDependencies": {
+    "jquery": "^3.1.1"
+  }
+}
+

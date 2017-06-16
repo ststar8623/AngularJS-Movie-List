@@ -1,0 +1,51 @@
+/** standard html **/
+html {
+  width: 500px;
+}
+h2 {
+  margin-left: 30px;
+  text-align: center;
+}
+/** add button **/
+#movie-add {
+  margin: 20px;
+  text-align: center;
+}
+/** search button **/
+#movie-search {
+  display: inline;
+  float: right;
+}
+/** input-buttons **/
+.input-button {
+  margin-left: 20px;
+  float: left;
+}
+/** movie-list **/
+#ul-movie-list {
+  position: absolute;
+  display: block;
+  margin-top: 35px;
+  width: 500px;
+}
+/** movie-list-entry component **/
+.movie-list-entry {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  height: 38px;
+}
+/** movie-list-entry-li **/
+.list {
+  display: inline;
+}
+.watch span{
+  float: right;
+  padding: 2px;
+}
+/** toggle class **/
+.watched {
+  background-color: lime;
+  border: 1px solid black;
+  border-radius: 10%;
+}

@@ -1,0 +1,5 @@
+<div id="ul-movie-list">
+  <ul>
+    <list-entry ng-repeat="movie in $ctrl.movies | filter:{title: $ctrl.searchText} | filter:{watched:$ctrl.watchedMovie}" movie='movie' watch-Toggle="$ctrl.watchToggle"></list-entry>
+  </ul>
+</div>

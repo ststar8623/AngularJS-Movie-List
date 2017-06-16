@@ -1,0 +1,4 @@
+<div class="movie-list-entry watch">
+  <li class="list">{{$ctrl.movie.title}}</li>
+  <span ng-class="$ctrl.movie.watched ? 'watched' : ''" ng-click="$ctrl.watchToggle($ctrl.movie)">Watched</span>
+</div>

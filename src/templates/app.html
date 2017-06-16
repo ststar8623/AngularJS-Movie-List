@@ -1,0 +1,21 @@
+<div id="app container">
+  <div class="navbar">
+    <h2>MovieList</h2>
+  </div>
+    <add-movie add-Movie="$ctrl.addMovie"></add-movie>
+
+    <div id="app">
+      <input ng-click="$ctrl.watched()" class="input-button" type="button" value="Watched"></input>
+
+      <div id="buttons">
+        <input ng-click="$ctrl.toWatch()" class="input-button" type="button" value="To Watch"></input>
+
+        <input ng-click="$ctrl.clearFilter()" class="input-button" type="button" value="Clear"></div>
+
+        <search search="$ctrl.search" search-Text="$ctrl.searchText"></search>
+      </div>
+
+      <movie-list movies="$ctrl.movies" watch-Toggle="$ctrl.watchToggle" search="$ctrl.search" search-Text="$ctrl.searchText" watched-Movie="$ctrl.watchedMovie"></movie-list>
+    </div>
+
+</div>

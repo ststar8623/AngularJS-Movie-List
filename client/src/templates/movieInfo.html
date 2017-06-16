@@ -1,0 +1,6 @@
+<ul>
+  <li>Year: {{$ctrl.movie.description.year}}</li>
+  <li>Runtime: {{$ctrl.movie.description.minutes}}</li>
+  <li>imdbRating: {{$ctrl.movie.description.imdbRating}}</li>
+  <li>Watched: <input type="radio" ng-checked="$ctrl.movie.watched ? 'watched' : ''" ng-click="$ctrl.watchToggle($ctrl.movie)"></input></li>
+</ul>

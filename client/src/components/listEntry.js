@@ -1,7 +1,7 @@
 angular.module('movie-list')
 
 .component('listEntry', {
-  templateUrl: 'src/templates/listEntry.html',
+  templateUrl: 'client/src/templates/listEntry.html',
   bindings: {
     movie: '<',
     watchToggle: '<'

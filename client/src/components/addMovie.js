@@ -1,7 +1,7 @@
 angular.module('movie-list')
 
 .component('addMovie', {
-  templateUrl: 'src/templates/addMovie.html',
+  templateUrl: 'client/src/templates/addMovie.html',
   bindings: {
     addMovie: '<'
   }

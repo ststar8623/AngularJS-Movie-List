@@ -1,0 +1,5 @@
+<div class="movie-list-entry watch" ng-click="isInfoOpen = !isInfoOpen">
+  <li class="list">{{$ctrl.movie.title}}</li>
+  <!--<span ng-class="$ctrl.movie.watched ? 'watched' : ''" ng-click="$ctrl.watchToggle($ctrl.movie)"></span>-->
+  <movie-info ng-show="isInfoOpen" movie="$ctrl.movie" watch-Toggle="$ctrl.watchToggle"></movie-info>
+</div>
